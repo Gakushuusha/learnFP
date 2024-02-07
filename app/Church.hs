@@ -50,6 +50,7 @@ churchOr a b = a true b
 
 churchNot a = a false true
 
+churchIf l a b = l a b
 
 -- Church encoding of numerals before implementing id, const and (.)
 -- and before eta-reduction
