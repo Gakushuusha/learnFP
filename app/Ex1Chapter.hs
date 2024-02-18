@@ -1,5 +1,5 @@
 module Ex1Chapter where
-
+    
 factorial num
   | num == 0 = 1
   | num > 0 = num * factorial (num - 1)
